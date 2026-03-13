@@ -1,4 +1,5 @@
 
+
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +7,9 @@
 }
 
 body {
-    background-color: #0a0b14;
-    font-family: 'Inter', sans-serif;
-    color: white;
+    background-color: #1C254E;
+    font-family: 'Satoshi', sans-serif;
+    color: #D3DBFE;
     line-height: 1.5;
     height: 100vh;
     display: flex;
@@ -22,25 +23,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 30px 60px;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo-icon {
-    background-color: #020147;
-    color: white;
-    font-weight: bold;
-    padding: 5px 12px;
-    border-radius: 6px;
-}
-
-.logo-text {
-    font-size: 1.3rem;
-    font-weight: 700;
 }
 
 .nav-link {
@@ -70,7 +52,7 @@ img {
 }
 
 .badge {
-    border: 1px solid #38bdf8;
+    border: 1px solid #007EFE;
     color: #ffffff;
     padding: 8px 20px;
     border-radius: 50px;
@@ -86,7 +68,7 @@ img {
 }
 
 .highlight {
-    color: #38bdf8; 
+    color: #007EFE; 
 }
 
 .s-text {
@@ -97,7 +79,7 @@ img {
 
 /* Button Styling */
 .waitlist-button {
-    background-color: #00a3ff;
+    background-color: #007EFE;
     color: white;
     border: none;
     padding: 16px 40px;
@@ -109,12 +91,13 @@ img {
 }
 
 .waitlist-button:hover {
-    background-color: #0081cc4d;
+    background-color: #0054a8;
     transform: scale(1.02);
 }
 
 .waitlist-button a {
     color: white;
+    font-family: 'satoshi', sans-serif;
     text-decoration: none;
 }
 
